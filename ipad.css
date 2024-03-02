@@ -1,25 +1,29 @@
-/* mobile */
-@media only screen and (min-width: 375px) and (max-width: 739px) {
-    .font {
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+    body {
+        padding: 10px;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .navbar {
+        height: 80px;
+        width: 100%;
+        background-color: white;
+    }
+
+    .navbar .fa-sharp {
         display: none;
-    }
-
-    .fa-sharp {
-        display: block;
-    }
-
-    .container-fluid .section1 {
-        display: flex;
-        flex-wrap: wrap;
     }
 
     .section1 {
         padding: 5% 0px;
+        width: 100%;
     }
 
-    /* .section1 .content {
+    .section1 .content {
         width: 50%;
-    } */
+    }
 
     .section1 .content h1 {
         font-size: 40px;
@@ -36,61 +40,60 @@
 
     .section1 .content #p2 {
         color: gray;
-        font-size: 10px;
     }
 
-
     .section1 .section1_register i {
-        padding: 4px 5px;
-        font-size: 8px;
+        padding: 5px 10px;
+        font-size: 20px;
         color: white;
         background-color: rgb(204, 164, 31);
         border-radius: 50%;
         margin: 0 2.5% 0 5%;
     }
 
-    .section1 .img img {
-        width: 100%;
-        margin: 10% auto;
+    .section1 .section1_register button {
+        width: 150px;
+        outline: none;
+        border: none;
     }
 
-    .section1 .section1_register b {
-        font-size: 14px;
+    .section1 .section1_register {
+        padding: 2.5% 0px;
+    }
+
+    .section1 .img img {
+        width: 100%;
     }
 
     .section2 {
-        padding: 5% 0px;
-    }
-
-    .section2 .d-flex {
-        display: flex;
-        flex-wrap: wrap;
+        width: 100%;
+        padding: 2.5% 0px;
     }
 
     .section2 .section2_content h1 {
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 700;
-        line-height: 50px;
+        line-height: 40px;
     }
 
     .section2 .section2_content p {
         color: gray;
         font-weight: 400;
-        size: 18px;
+        size: 10px;
         line-height: 27px;
     }
 
     .section2 .section2_card {
         border-radius: 10px;
+        margin: 0 5%;
+        padding: 40px 18px 0 18px;
         background-color: #454BBF;
         color: white;
-        padding: 80px auto;
-        margin-top: 3%;
     }
 
     .section2 .section2_card i {
         display: inline-block;
-        padding: 10px 20px;
+        padding: 5px 5px;
         color: white;
         font-size: 20px;
     }
@@ -99,7 +102,6 @@
         font-size: 18px;
         font-weight: 700;
         line-height: 30px;
-        padding: 10px 20px;
     }
 
     .section2 .section2_card p {
@@ -107,26 +109,24 @@
         font-weight: 400;
         line-height: 21px;
         color: #DDDD;
-        padding: 10px 20px;
     }
 
     .section3 {
-        padding: 5% 0px;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .section3 img {
         width: 100%;
-        margin: 10% auto;
+        padding: 2.5% 0px;
     }
 
     .section3 .section3_content {
+        padding: 10% 0;
         color: white;
+        width: 50%;
+    }
+
+    .section3 img {
+        width: 50%;
     }
 
     .section3 .section3_content span {
-        padding: 50px 0;
         font-size: 18px;
         font-weight: 400;
         color: #F0C932;
@@ -139,14 +139,14 @@
     }
 
     .section3 .section3_content p {
-        font-size: 15px;
+        font-size: 18px;
         font-weight: 400;
         line-height: 27px;
         color: #DDDDDD;
     }
 
     .section3 .text-center span {
-        font-size: 15px;
+        font-size: 24px;
         font-weight: 700;
         line-height: 29px;
     }
@@ -164,8 +164,7 @@
     .section4 .section4_content {}
 
     .section4 .section4_content .card {
-        margin: 3% auto;
-        width: 100%;
+        margin: 3%;
     }
 
     .section4_content .p-4 span {
@@ -175,6 +174,7 @@
 
     .section4 .form_register {
         text-align: center;
+        margin: 5% 20%;
     }
 
     .section4 #form_register-span1 {
@@ -186,7 +186,7 @@
 
     .section4 .form_register h1 {
         color: #141E32;
-        font-size: 30px;
+        font-size: 45px;
         font-weight: 700;
         line-height: 60px;
     }
@@ -198,15 +198,11 @@
         font-size: 18px;
         font-weight: 400;
         line-height: 27px;
-        padding: 5% 0;
+        padding: 5% 0 5% 0;
     }
 
     .section4 form {
         padding: 10%;
-    }
-
-    .section4 .form_register {
-        margin: 0 auto;
     }
 
     .section4 form span {
@@ -226,11 +222,6 @@
 
     .section5 {
         padding: 2.5% 0px;
-    }
-
-    .section5 .d-flex {
-        display: flex;
-        flex-wrap: wrap;
     }
 
     .section5 h3 {
@@ -272,16 +263,18 @@
         font-size: 14px;
         line-height: 24px;
         color: #F4F4F4;
+        text-align: center;
     }
 
     .section6 .container {
         padding: 3% 3%;
         display: flex;
         flex-wrap: wrap;
+        text-align: left;
     }
 
     .section6 .footer1 {
-        width: 100%;
+        width: 50%;
     }
 
     .section6 .footer1 p {
@@ -295,7 +288,7 @@
     }
 
     .section6 #d-flex1 {
-        width: 100%;
+        width: 50%;
     }
 
     .section6 .footer2 {
@@ -314,7 +307,6 @@
 
     .section6 .footer5 {
         width: 20%;
-        font-size: 10px;
     }
 
     .section6 #d-flex1 .d-flex {

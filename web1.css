@@ -7,7 +7,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-@media only screen and (min-width: 740px) {
+@media only screen and (min-width: 1025px) {
     .navbar {
         height: 80px;
         width: 100%;
@@ -20,12 +20,8 @@ body {
 
     .section1 {
         padding: 5% 0px;
-
+        width: 100%;
     }
-
-    /* .section1 .content {
-        width: 50%;
-    } */
 
     .section1 .content h1 {
         font-size: 80px;
@@ -147,6 +143,8 @@ body {
         padding: 3%;
     }
 
+    .section3 img {}
+
     .section4 {
         padding: 2.5% 0px;
     }
@@ -210,6 +208,7 @@ body {
         padding: 15px 60px;
         font-size: 18px;
         font-weight: 700;
+        width: 80%;
     }
 
     .section5 {
@@ -255,14 +254,16 @@ body {
         font-size: 14px;
         line-height: 24px;
         color: #F4F4F4;
+
     }
 
     .section6 .container {
         padding: 3% 5%;
+        width: 100%;
     }
 
     .section6 .footer1 {
-        width: 45%;
+        width: 30%;
     }
 
     .section6 .footer1 p {
@@ -272,26 +273,28 @@ body {
     }
 
     .section6 .footer1 i {
-        padding: 20px 10px;
+        margin: 20px 10px;
     }
 
     .section6 .footer2 {
-        width: 20%;
-        padding: 0 5%;
+        width: 17%;
+        margin: 0 40px;
+
     }
 
     .section6 .footer3 {
-        width: 20%;
-        padding: 0 5%;
+        width: 17%;
+        margin: 0 40px;
     }
 
     .section6 .footer4 {
-        width: 20%;
-        padding: 0 5%;
+        width: 17%;
+        margin: 0 40px;
     }
 
     .section6 .footer5 {
-        padding: 0 5%;
+        width: 17%;
+        margin: 0 0 0 40px;
     }
 
     .section6 b {
